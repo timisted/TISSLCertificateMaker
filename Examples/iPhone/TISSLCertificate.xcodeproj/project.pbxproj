@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TISSLCertificateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TISSLCertificateAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* TISSLCertificateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* TISSLCertificateViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* TISSLCertificateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TISSLCertificateViewController.m */; };
+		3825B9F0117498B30062408D /* TISSLCertificateMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3825B9EF117498B30062408D /* TISSLCertificateMaker.m */; };
+		3825BACE1174B7110062408D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		3825BACF1174B7110062408D /* TISSLCertificateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* TISSLCertificateViewController.xib */; };
+		3825BAD11174B7110062408D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		3825BAD21174B7110062408D /* TISSLCertificateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TISSLCertificateAppDelegate.m */; };
+		3825BAD31174B7110062408D /* TISSLCertificateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TISSLCertificateViewController.m */; };
+		3825BAD41174B7110062408D /* TISSLCertificateMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3825B9EF117498B30062408D /* TISSLCertificateMaker.m */; };
+		3825BAD61174B7110062408D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		3825BAD71174B7110062408D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		3825BAD81174B7110062408D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		3825BB2B1174B75A0062408D /* libcrypto_arm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3825BB291174B75A0062408D /* libcrypto_arm.a */; };
+		3825BB2C1174B75A0062408D /* libssl_arm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3825BB2A1174B75A0062408D /* libssl_arm.a */; };
+		3825BC9C117710810062408D /* TISSLCertificateDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3825BC9A117710810062408D /* TISSLCertificateDetailsViewController.m */; };
+		3825BC9D117710810062408D /* TISSLCertificateDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3825BC9B117710810062408D /* TISSLCertificateDetailsViewController.xib */; };
+		3825BCAF1177142E0062408D /* countryCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3825BCAE1177142E0062408D /* countryCodes.plist */; };
+		3825BDDB117736A50062408D /* TISSLCertificateDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3825BC9A117710810062408D /* TISSLCertificateDetailsViewController.m */; };
+		3825BDDC117736A90062408D /* countryCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3825BCAE1177142E0062408D /* countryCodes.plist */; };
+		3825BDDD117736B30062408D /* TISSLCertificateDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3825BC9B117710810062408D /* TISSLCertificateDetailsViewController.xib */; };
+		3825BE1B117739020062408D /* libcrypto_i386.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3825BE19117739020062408D /* libcrypto_i386.a */; };
+		3825BE1C117739020062408D /* libssl_i386.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3825BE1A117739020062408D /* libssl_i386.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TISSLCertificateAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISSLCertificateAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TISSLCertificateAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TISSLCertificateAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TISSLCertificate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TISSLCertificate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* TISSLCertificateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TISSLCertificateViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* TISSLCertificateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISSLCertificateViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* TISSLCertificateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TISSLCertificateViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TISSLCertificate_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISSLCertificate_Prefix.pch; sourceTree = "<group>"; };
+		3825B9EE117498B30062408D /* TISSLCertificateMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISSLCertificateMaker.h; sourceTree = "<group>"; };
+		3825B9EF117498B30062408D /* TISSLCertificateMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TISSLCertificateMaker.m; sourceTree = "<group>"; };
+		3825BADC1174B7110062408D /* TISSLCertificate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TISSLCertificate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3825BADE1174B7110062408D /* TISSLCertificateSimulator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TISSLCertificateSimulator-Info.plist"; sourceTree = "<group>"; };
+		3825BAE21174B7400062408D /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		3825BAE31174B7400062408D /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		3825BAE41174B7400062408D /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		3825BAE51174B7400062408D /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		3825BAE61174B7400062408D /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		3825BAE71174B7400062408D /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		3825BAE81174B7400062408D /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		3825BAE91174B7400062408D /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		3825BAEA1174B7400062408D /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		3825BAEB1174B7400062408D /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		3825BAEC1174B7400062408D /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		3825BAED1174B7400062408D /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		3825BAEE1174B7400062408D /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		3825BAEF1174B7400062408D /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		3825BAF01174B7400062408D /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		3825BAF11174B7400062408D /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		3825BAF21174B7400062408D /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		3825BAF31174B7400062408D /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		3825BAF41174B7400062408D /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		3825BAF51174B7400062408D /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		3825BAF61174B7400062408D /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		3825BAF71174B7400062408D /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		3825BAF81174B7400062408D /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		3825BAF91174B7400062408D /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		3825BAFA1174B7400062408D /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		3825BAFB1174B7400062408D /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		3825BAFC1174B7400062408D /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		3825BAFD1174B7400062408D /* fips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fips.h; sourceTree = "<group>"; };
+		3825BAFE1174B7400062408D /* fips_rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fips_rand.h; sourceTree = "<group>"; };
+		3825BAFF1174B7400062408D /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		3825BB001174B7400062408D /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		3825BB011174B7400062408D /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		3825BB021174B7400062408D /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		3825BB031174B7400062408D /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		3825BB041174B7400062408D /* md2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md2.h; sourceTree = "<group>"; };
+		3825BB051174B7400062408D /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		3825BB061174B7400062408D /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		3825BB071174B7400062408D /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		3825BB081174B7400062408D /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		3825BB091174B7400062408D /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		3825BB0A1174B7400062408D /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		3825BB0B1174B7400062408D /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		3825BB0C1174B7400062408D /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		3825BB0D1174B7400062408D /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		3825BB0E1174B7400062408D /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		3825BB0F1174B7400062408D /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		3825BB101174B7400062408D /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		3825BB111174B7400062408D /* pq_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pq_compat.h; sourceTree = "<group>"; };
+		3825BB121174B7400062408D /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		3825BB131174B7400062408D /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		3825BB141174B7400062408D /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		3825BB151174B7400062408D /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		3825BB161174B7400062408D /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		3825BB171174B7400062408D /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		3825BB181174B7400062408D /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		3825BB191174B7400062408D /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		3825BB1A1174B7400062408D /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		3825BB1B1174B7400062408D /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		3825BB1C1174B7400062408D /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		3825BB1D1174B7400062408D /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		3825BB1E1174B7400062408D /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		3825BB1F1174B7400062408D /* store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = store.h; sourceTree = "<group>"; };
+		3825BB201174B7400062408D /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		3825BB211174B7400062408D /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		3825BB221174B7400062408D /* tmdiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmdiff.h; sourceTree = "<group>"; };
+		3825BB231174B7400062408D /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		3825BB241174B7400062408D /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		3825BB251174B7400062408D /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		3825BB261174B7400062408D /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		3825BB271174B7400062408D /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		3825BB281174B7400062408D /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		3825BB291174B75A0062408D /* libcrypto_arm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto_arm.a; sourceTree = "<group>"; };
+		3825BB2A1174B75A0062408D /* libssl_arm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl_arm.a; sourceTree = "<group>"; };
+		3825BC99117710810062408D /* TISSLCertificateDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TISSLCertificateDetailsViewController.h; path = ../TISSLCertificateDetailsViewController.h; sourceTree = "<group>"; };
+		3825BC9A117710810062408D /* TISSLCertificateDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TISSLCertificateDetailsViewController.m; path = ../TISSLCertificateDetailsViewController.m; sourceTree = "<group>"; };
+		3825BC9B117710810062408D /* TISSLCertificateDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TISSLCertificateDetailsViewController.xib; sourceTree = "<group>"; };
+		3825BCAE1177142E0062408D /* countryCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = countryCodes.plist; sourceTree = "<group>"; };
+		3825BE19117739020062408D /* libcrypto_i386.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto_i386.a; sourceTree = "<group>"; };
+		3825BE1A117739020062408D /* libssl_i386.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl_i386.a; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TISSLCertificateDevice-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TISSLCertificateDevice-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				3825BB2B1174B75A0062408D /* libcrypto_arm.a in Frameworks */,
+				3825BB2C1174B75A0062408D /* libssl_arm.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3825BAD51174B7110062408D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3825BAD61174B7110062408D /* Foundation.framework in Frameworks */,
+				3825BAD71174B7110062408D /* UIKit.framework in Frameworks */,
+				3825BAD81174B7110062408D /* CoreGraphics.framework in Frameworks */,
+				3825BE1B117739020062408D /* libcrypto_i386.a in Frameworks */,
+				3825BE1C117739020062408D /* libssl_i386.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* TISSLCertificateAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TISSLCertificateAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* TISSLCertificateViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* TISSLCertificateViewController.m */,
+				3825BC99117710810062408D /* TISSLCertificateDetailsViewController.h */,
+				3825BC9A117710810062408D /* TISSLCertificateDetailsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TISSLCertificate.app */,
+				3825BADC1174B7110062408D /* TISSLCertificate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				3825B9EB117498A60062408D /* TISSLCertificateMaker */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TISSLCertificate_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3825BC9B117710810062408D /* TISSLCertificateDetailsViewController.xib */,
+				2899E5210DE3E06400AC0155 /* TISSLCertificateViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* TISSLCertificateDevice-Info.plist */,
+				3825BADE1174B7110062408D /* TISSLCertificateSimulator-Info.plist */,
+				3825BCAE1177142E0062408D /* countryCodes.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3825BE19117739020062408D /* libcrypto_i386.a */,
+				3825BE1A117739020062408D /* libssl_i386.a */,
+				3825BB291174B75A0062408D /* libcrypto_arm.a */,
+				3825BB2A1174B75A0062408D /* libssl_arm.a */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3825B9EB117498A60062408D /* TISSLCertificateMaker */ = {
+			isa = PBXGroup;
+			children = (
+				3825BAE11174B7400062408D /* openssl */,
+				3825B9EE117498B30062408D /* TISSLCertificateMaker.h */,
+				3825B9EF117498B30062408D /* TISSLCertificateMaker.m */,
+			);
+			name = TISSLCertificateMaker;
+			path = ../../TISSLCertificateMaker;
+			sourceTree = "<group>";
+		};
+		3825BAE11174B7400062408D /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				3825BAE21174B7400062408D /* aes.h */,
+				3825BAE31174B7400062408D /* asn1.h */,
+				3825BAE41174B7400062408D /* asn1_mac.h */,
+				3825BAE51174B7400062408D /* asn1t.h */,
+				3825BAE61174B7400062408D /* bio.h */,
+				3825BAE71174B7400062408D /* blowfish.h */,
+				3825BAE81174B7400062408D /* bn.h */,
+				3825BAE91174B7400062408D /* buffer.h */,
+				3825BAEA1174B7400062408D /* cast.h */,
+				3825BAEB1174B7400062408D /* comp.h */,
+				3825BAEC1174B7400062408D /* conf.h */,
+				3825BAED1174B7400062408D /* conf_api.h */,
+				3825BAEE1174B7400062408D /* crypto.h */,
+				3825BAEF1174B7400062408D /* des.h */,
+				3825BAF01174B7400062408D /* des_old.h */,
+				3825BAF11174B7400062408D /* dh.h */,
+				3825BAF21174B7400062408D /* dsa.h */,
+				3825BAF31174B7400062408D /* dso.h */,
+				3825BAF41174B7400062408D /* dtls1.h */,
+				3825BAF51174B7400062408D /* e_os2.h */,
+				3825BAF61174B7400062408D /* ebcdic.h */,
+				3825BAF71174B7400062408D /* ec.h */,
+				3825BAF81174B7400062408D /* ecdh.h */,
+				3825BAF91174B7400062408D /* ecdsa.h */,
+				3825BAFA1174B7400062408D /* engine.h */,
+				3825BAFB1174B7400062408D /* err.h */,
+				3825BAFC1174B7400062408D /* evp.h */,
+				3825BAFD1174B7400062408D /* fips.h */,
+				3825BAFE1174B7400062408D /* fips_rand.h */,
+				3825BAFF1174B7400062408D /* hmac.h */,
+				3825BB001174B7400062408D /* idea.h */,
+				3825BB011174B7400062408D /* krb5_asn.h */,
+				3825BB021174B7400062408D /* kssl.h */,
+				3825BB031174B7400062408D /* lhash.h */,
+				3825BB041174B7400062408D /* md2.h */,
+				3825BB051174B7400062408D /* md4.h */,
+				3825BB061174B7400062408D /* md5.h */,
+				3825BB071174B7400062408D /* obj_mac.h */,
+				3825BB081174B7400062408D /* objects.h */,
+				3825BB091174B7400062408D /* ocsp.h */,
+				3825BB0A1174B7400062408D /* opensslconf.h */,
+				3825BB0B1174B7400062408D /* opensslv.h */,
+				3825BB0C1174B7400062408D /* ossl_typ.h */,
+				3825BB0D1174B7400062408D /* pem.h */,
+				3825BB0E1174B7400062408D /* pem2.h */,
+				3825BB0F1174B7400062408D /* pkcs12.h */,
+				3825BB101174B7400062408D /* pkcs7.h */,
+				3825BB111174B7400062408D /* pq_compat.h */,
+				3825BB121174B7400062408D /* pqueue.h */,
+				3825BB131174B7400062408D /* rand.h */,
+				3825BB141174B7400062408D /* rc2.h */,
+				3825BB151174B7400062408D /* rc4.h */,
+				3825BB161174B7400062408D /* ripemd.h */,
+				3825BB171174B7400062408D /* rsa.h */,
+				3825BB181174B7400062408D /* safestack.h */,
+				3825BB191174B7400062408D /* sha.h */,
+				3825BB1A1174B7400062408D /* ssl.h */,
+				3825BB1B1174B7400062408D /* ssl2.h */,
+				3825BB1C1174B7400062408D /* ssl23.h */,
+				3825BB1D1174B7400062408D /* ssl3.h */,
+				3825BB1E1174B7400062408D /* stack.h */,
+				3825BB1F1174B7400062408D /* store.h */,
+				3825BB201174B7400062408D /* symhacks.h */,
+				3825BB211174B7400062408D /* tls1.h */,
+				3825BB221174B7400062408D /* tmdiff.h */,
+				3825BB231174B7400062408D /* txt_db.h */,
+				3825BB241174B7400062408D /* ui.h */,
+				3825BB251174B7400062408D /* ui_compat.h */,
+				3825BB261174B7400062408D /* x509.h */,
+				3825BB271174B7400062408D /* x509_vfy.h */,
+				3825BB281174B7400062408D /* x509v3.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TISSLCertificate Device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TISSLCertificate Device" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TISSLCertificate Device";
+			productName = TISSLCertificate;
+			productReference = 1D6058910D05DD3D006BFB54 /* TISSLCertificate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3825BACC1174B7110062408D /* TISSLCertificate Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3825BAD91174B7110062408D /* Build configuration list for PBXNativeTarget "TISSLCertificate Simulator" */;
+			buildPhases = (
+				3825BACD1174B7110062408D /* Resources */,
+				3825BAD01174B7110062408D /* Sources */,
+				3825BAD51174B7110062408D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TISSLCertificate Simulator";
+			productName = TISSLCertificate;
+			productReference = 3825BADC1174B7110062408D /* TISSLCertificate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TISSLCertificate" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TISSLCertificate Device */,
+				3825BACC1174B7110062408D /* TISSLCertificate Simulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* TISSLCertificateViewController.xib in Resources */,
+				3825BDDC117736A90062408D /* countryCodes.plist in Resources */,
+				3825BDDD117736B30062408D /* TISSLCertificateDetailsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3825BACD1174B7110062408D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3825BACE1174B7110062408D /* MainWindow.xib in Resources */,
+				3825BACF1174B7110062408D /* TISSLCertificateViewController.xib in Resources */,
+				3825BC9D117710810062408D /* TISSLCertificateDetailsViewController.xib in Resources */,
+				3825BCAF1177142E0062408D /* countryCodes.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TISSLCertificateAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* TISSLCertificateViewController.m in Sources */,
+				3825B9F0117498B30062408D /* TISSLCertificateMaker.m in Sources */,
+				3825BDDB117736A50062408D /* TISSLCertificateDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3825BAD01174B7110062408D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3825BAD11174B7110062408D /* main.m in Sources */,
+				3825BAD21174B7110062408D /* TISSLCertificateAppDelegate.m in Sources */,
+				3825BAD31174B7110062408D /* TISSLCertificateViewController.m in Sources */,
+				3825BAD41174B7110062408D /* TISSLCertificateMaker.m in Sources */,
+				3825BC9C117710810062408D /* TISSLCertificateDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TISSLCertificate_Prefix.pch;
+				INFOPLIST_FILE = "TISSLCertificateDevice-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = TISSLCertificate;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TISSLCertificate_Prefix.pch;
+				INFOPLIST_FILE = "TISSLCertificateDevice-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = TISSLCertificate;
+				SDKROOT = iphoneos3.1.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3825BADA1174B7110062408D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TISSLCertificate_Prefix.pch;
+				INFOPLIST_FILE = "TISSLCertificateSimulator-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = TISSLCertificate;
+				SDKROOT = iphonesimulator3.1.3;
+			};
+			name = Debug;
+		};
+		3825BADB1174B7110062408D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TISSLCertificate_Prefix.pch;
+				INFOPLIST_FILE = "TISSLCertificateSimulator-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = TISSLCertificate;
+				SDKROOT = iphonesimulator3.1.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TISSLCertificate Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3825BAD91174B7110062408D /* Build configuration list for PBXNativeTarget "TISSLCertificate Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3825BADA1174B7110062408D /* Debug */,
+				3825BADB1174B7110062408D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TISSLCertificate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
