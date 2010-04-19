@@ -313,6 +313,8 @@ typedef enum _TISSLCertificateDataGenerationType {
     _mostRecentError = [[NSError alloc] initWithDomain:@"com.timisted.TISSLCertificateErrorDomain"
                                                   code:-1 
                                               userInfo:errorDictionary];
+    
+    [errorString release];
 }
 
 #pragma mark -
